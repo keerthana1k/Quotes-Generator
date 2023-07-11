@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="head-wrapper">
+        <h1 class="heading">QUOTES GENERATOR</h1>
+        <a href="#">Saved Quotes</a>
+    </header>
+    <section class="content-wrapper">
+        <div id="loading-page" > <div class="load-icon"></div></div>
+      
+        <div id="container">
+            <p id="quotes-container"> </p>
+            <div class="author">-- <span id="js-author"></span></div>
+            </div>
+            <div class="btn-container">
+                <button class="btn" onclick="saveQuotes()">Save</button>
+                <button class="btn" onclick="nextQuotes()">Next</button>
+                
+            </div>
+    </section>
+   
+    <script src="app.js"></script>
+</body>
+</html>
